@@ -10,7 +10,7 @@ Our code is developed based on OpenAI Baselines (https://github.com/openai/basel
 - mujoco_py==2.0.13
 - mpi4py==3.1.4
 - gym==0.15.7
-- panda-gym==2.0.0 forked from qgallouedec/panda-gym (https://github.com/weixiang-smart/panda-gym)
+- panda-gym==2.0.0 forked from [qgallouedec/panda-gym](https://github.com/qgallouedec/panda-gym/tree/v2.0.0) (https://github.com/weixiang-smart/panda-gym)
 
 ## Installation
  `pip install -e .`
