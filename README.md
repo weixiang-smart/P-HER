@@ -24,6 +24,6 @@ python train.py --env_name PandaPickAndPlaceJoints-v2  --prioritization motivati
 ```
 
 ## Reference
-- [Baselines](https://github.com/openai/baselines)
+- [OpenAI Baselines](https://github.com/openai/baselines)
 - [Energy-Based Hindsight Experience Prioritization](https://github.com/ruizhaogit/EnergyBasedPrioritization)
 - [Diversity-based Trajectory and Goal Selection with Hindsight Experience Replay](https://github.com/TianhongDai/div-hindsight)
