@@ -14,3 +14,8 @@ Our code is developed based on OpenAI Baselines (https://github.com/openai/basel
 
 ## Installation
  `pip install -e .`
+
+## Usage
+1. Open the terminal in ./basedlines/her/experiment
+
+2. Train the model with P-HER by running the command
