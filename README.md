@@ -19,3 +19,4 @@ Our code is developed based on OpenAI Baselines (https://github.com/openai/basel
 1. Open the terminal in ./basedlines/her/experiment
 
 2. Train the model with P-HER by running the command
+`python train.py --env_name PandaPickAndPlaceJoints-v2  --prioritization motivation --ratio_o 0.75 --ratio 0.25 --seed 2 --n_epochs 100 --num_cpu 8 --logdir logs/PandaPickAndPlaceJoints-v2/test/7525/finaltest/r2 --logging True`
