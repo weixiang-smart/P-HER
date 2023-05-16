@@ -22,3 +22,8 @@ Our code is developed based on OpenAI Baselines (https://github.com/openai/basel
 ```
 python train.py --env_name PandaPickAndPlaceJoints-v2  --prioritization motivation --ratio_o 0.75 --ratio 0.25 --seed 2 --n_epochs 100 --num_cpu 8 --logdir logs/PandaPickAndPlaceJoints-v2/test/7525/finaltest/r2 --logging True
 ```
+
+## Reference
+- [Baselines](https://github.com/openai/baselines)
+- [Energy-Based Hindsight Experience Prioritization](https://github.com/ruizhaogit/EnergyBasedPrioritization)
+- [Diversity-based Trajectory and Goal Selection with Hindsight Experience Replay](https://github.com/TianhongDai/div-hindsight)
