@@ -12,3 +12,5 @@ Our code is developed based on OpenAI Baselines (https://github.com/openai/basel
 - gym==0.15.7
 - panda-gym==2.0.0 forked from qgallouedec/panda-gym (https://github.com/weixiang-smart/panda-gym)
 
+## Installation
+ `pip install -e .`
