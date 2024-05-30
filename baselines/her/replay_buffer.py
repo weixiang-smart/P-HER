@@ -162,7 +162,7 @@ class ReplayBufferMotivation:
             buffers[key] = episode_batch[key]
 
 
-        # start to calculate the diversity
+        # start to calculate the motivation
         if self.prioritization == 'motivation' or self.prioritization == 'none': 
             # we only consider the fetch environment now
             if self.goal_type == 'full':
