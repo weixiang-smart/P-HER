@@ -137,8 +137,8 @@ def make_sample_her_transitions_motivation(replay_strategy, replay_k, reward_fun
         
         #------------------------------------PR reward-------------------------------------------
         progress_list = []
-
-        for f in range(transitions['ag_last'].shape[0]):
+        n = transitions['ag_last'].shape[0]
+        for f in range(n):
             last_dist = goal_distance(transitions['ag_last'][f,:], transitions['g'][f,:])
             now_dist = goal_distance(transitions['ag'][f,:], transitions['g'][f,:])
  
