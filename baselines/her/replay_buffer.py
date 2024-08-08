@@ -178,10 +178,12 @@ class ReplayBufferMotivation:
             traj_g = traj_g[:,0,:] 
             distance = []
             all_close = []
-            for m in range(traj_g.shape[0]):
-                for n in range(traj.shape[1]):
-                    #print(traj[m, n, :].shape, traj_g[m,:].shape)
-                    result = goal_distance(traj[m, n, :], traj_g[m,:])
+            m = traj_g.shape[0]
+            n = traj.shape[1]
+            for m_i in range(m):
+                for n_i in range(n):
+                    #print(traj[m_i, n_i, :].shape, traj_g[m_i,:].shape)
+                    result = goal_distance(traj[m_i, n_i, :], traj_g[m_i,:])
                     distance.append(result)
                 distance_b = distance[1:]
                 distance_f = distance[:-1]
