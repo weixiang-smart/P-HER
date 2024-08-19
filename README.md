@@ -5,6 +5,8 @@ Our code is developed based on [OpenAI Baselines](https://github.com/openai/base
 ## Video of simulation and real-world experiments
 https://github.com/weixiang-smart/P-HER/assets/32152122/028eac79-6db6-4483-9908-7016fbea453b
 
+## Video of rela-world applicaion (workpieces sorting task)
+
 ## Requirement(important)
 - Python==3.6.13
 - tensorflow==1.15.0
