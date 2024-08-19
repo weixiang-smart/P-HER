@@ -6,6 +6,7 @@ Our code is developed based on [OpenAI Baselines](https://github.com/openai/base
 https://github.com/weixiang-smart/P-HER/assets/32152122/028eac79-6db6-4483-9908-7016fbea453b
 
 ## Video of real-world applicaion (workpieces sorting task)
+https://github.com/user-attachments/assets/359cd923-9ad2-4aca-9a8d-cfd5be51f657
 
 ## Requirement(important)
 - Python==3.6.13
